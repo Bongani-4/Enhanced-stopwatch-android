@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">stopwatch</string>
+    <string name="elapsed_time">Elapsed time</string>
+    <string name="elapsed_time_0_seconds">00:00:00:00\n</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="hold">hold</string>
+    <string name="mute_music">mute music</string>
+</resources>

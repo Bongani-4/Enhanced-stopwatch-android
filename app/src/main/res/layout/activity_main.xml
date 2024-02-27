@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#837E7E"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvElapsedTimeHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF1EA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="@string/elapsed_time"
+        android:layout_below="@+id/topBOx"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:id="@+id/tvElapsedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF1EA"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="@string/elapsed_time_0_seconds"
+        android:layout_below="@+id/tvElapsedTimeHeading"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <View
+        android:id="@+id/topBOx"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:layout_alignParentTop="true"/>
+    <View
+        android:id="@+id/topLeft"
+        android:layout_width="5dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="378dp"
+        android:background="@color/black"
+        />
+    <View
+        android:id="@+id/topRight"
+        android:layout_width="5dp"
+        android:layout_height="500dp"
+        android:background="@color/black"
+        android:layout_alignParentTop="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="500dp"
+        tools:ignore="UselessParent">
+
+
+
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start" android:textColor="@color/black"
+            android:textSize="25sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnHold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hold"
+            android:textSize="25sp"
+            android:layout_marginStart="20sp"
+            android:textColor="@color/black"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/stop"
+            android:layout_marginStart="20sp"
+            android:textSize="25sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mute"
+        android:layout_width="30dp"
+        android:layout_height="30sp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="590dp"
+        android:contentDescription="@string/mute_music"
+        android:src="@drawable/mutes" />
+
+
+</RelativeLayout>
