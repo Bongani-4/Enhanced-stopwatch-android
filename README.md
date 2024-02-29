@@ -18,7 +18,7 @@ A simple Android stopwatch application with additional features.
 #### Installation
 Clone the repository:
 
-1. bash Copy code git clone https://github.com/Bongani-4/OIBSIP_ToDo.git
+1.  Copy code git clone https://github.com/Bongani-4/OIBSIP_ToDo.git
 2. Open the project in Android Studio.
 3.  Run the app on your Android device or emulator.
 #### Usage 
