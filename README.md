@@ -6,6 +6,9 @@ A simple Android stopwatch application with additional features.
 
 ### Features
 
+
+<img src="StopW_Highlights.png" alt="Highlight" width="470">
+
 * Start/Stop Button: Start or stop the stopwatch. 
 * Hold Button: Pause and resume the stopwatch.
 *  Elapsed Time Display: Shows the elapsed time in hours, minutes, seconds, and milliseconds.
