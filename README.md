@@ -2,7 +2,7 @@
 
 ## Stopwatch App
 
-A simple Android stopwatch application with additional features. 
+An Android stopwatch application with additional features. 
 
 ### Features
 
